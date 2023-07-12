@@ -64,7 +64,7 @@ def predict():
 	    maxVote=vote[DT_predict[doc]]
 	doc+=1;
 	y_ensemble.append(label)
-	string s="";
+	s=""
 	if(str(y_ensemble[0])=='0'){
 		s='Apple'
 	}
@@ -131,5 +131,5 @@ def predict():
 	if(str(y_ensemble[0])=='21'){
 		s='Watermelon'
 	}
-	res={'result':str(y_ensemble[0]) }
+	res={'result':s }
 	return jsonify(res)
