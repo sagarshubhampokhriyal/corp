@@ -35,7 +35,7 @@ def index():
     
     return "Hello"
 
-@main.route('/predict1')
+@main.route('/predict1',methods=['POST'])
 def predict():
 	nc=request.form.get('nc')
 	pc=request.form.get('pc')
