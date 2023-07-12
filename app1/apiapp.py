@@ -65,71 +65,51 @@ def predict():
 	doc+=1;
 	y_ensemble.append(label)
 	s=""
-	if(str(y_ensemble[0])=='0'){
+	if str(y_ensemble[0])=='0':
 		s='Apple'
-	}
-	if(str(y_ensemble[0])=='1'){
+	if str(y_ensemble[0])=='1':
 		s='Banana'
-	}
-	if(str(y_ensemble[0])=='2'){
+	if str(y_ensemble[0])=='2':
 		s='Backgram'
-	}
-	if(str(y_ensemble[0])=='3'){
+	if str(y_ensemble[0])=='3':
 		s='Chickpea'
-	}
-	if(str(y_ensemble[0])=='4'){
+	if str(y_ensemble[0])=='4':
 		s='Cocunut'
-	}
-	if(str(y_ensemble[0])=='5'){
+	if str(y_ensemble[0])=='5':
 		s='Coffee'
-	}
-	if(str(y_ensemble[0])=='6'){
+	if str(y_ensemble[0])=='6':
 		s='Cotton'
-	}
-	if(str(y_ensemble[0])=='7'){
+	if str(y_ensemble[0])=='7':
 		s='Grapes'
-	}
-	if(str(y_ensemble[0])=='8'){
+	if str(y_ensemble[0])=='8':
 		s='Jute'
-	}
-	if(str(y_ensemble[0])=='9'){
+	if str(y_ensemble[0])=='9':
 		s='Kidenybeans'
-	}
-	if(str(y_ensemble[0])=='10'){
+	if str(y_ensemble[0])=='10':
 		s='Lentil'
-	}
-	if(str(y_ensemble[0])=='11'){
+	
+	if str(y_ensemble[0])=='11':
 		s='Maize'
-	}
-	if(str(y_ensemble[0])=='12'){
+	if str(y_ensemble[0])=='12':
 		s='Mango'
-	}
-	if(str(y_ensemble[0])=='13'){
+	if str(y_ensemble[0])=='13':
 		s='Mothbeans'
-	}
-	if(str(y_ensemble[0])=='14'){
+	if str(y_ensemble[0])=='14':
 		s='Mungbeans'
-	}
-	if(str(y_ensemble[0])=='15'){
+	if str(y_ensemble[0])=='15':
 		s='Muskmelon'
-	}
-	if(str(y_ensemble[0])=='16'){
+	if str(y_ensemble[0])=='16':
 		s='Orange'
-	}
-	if(str(y_ensemble[0])=='17'){
+	if str(y_ensemble[0])=='17':
 		s='Papaya'
-	}
-	if(str(y_ensemble[0])=='18'){
+	if str(y_ensemble[0])=='18':
 		s='Pegionpea'
-	}
-	if(str(y_ensemble[0])=='19'){
+	if str(y_ensemble[0])=='19':
 		s='Pomegranade'
-	}
-	if(str(y_ensemble[0])=='20'){
+	if str(y_ensemble[0])=='20':
 		s='Rice'
-	}
-	if(str(y_ensemble[0])=='21'){
+	if str(y_ensemble[0])=='21':
 		s='Watermelon'
-	}
+	
 	res={'result':s }
 	return jsonify(res)
