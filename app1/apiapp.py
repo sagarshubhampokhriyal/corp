@@ -105,7 +105,7 @@ def predict():
 	if str(y_ensemble[0])=='18':
 		s='Pegionpea'
 	if str(y_ensemble[0])=='19':
-		s='Pomegranade'
+		s='Pomegranate'
 	if str(y_ensemble[0])=='20':
 		s='Rice'
 	if str(y_ensemble[0])=='21':
